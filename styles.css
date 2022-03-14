@@ -510,7 +510,19 @@ li {
     margin-left: 0px;
     color: rgb(18, 29, 51);
 }
-
+/*  */
+.spinning{
+    display: inline; 
+    margin-left: 1280px;
+    position: fixed;
+    bottom: 4px;
+}
+.spinning:hover{
+    transform: translateY(-10px);
+    transition: 2s ;
+    background-color: rgb(8, 0, 82);
+    border-radius: 50%;
+}v
 
 
 
