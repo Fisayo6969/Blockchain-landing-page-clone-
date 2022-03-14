@@ -498,6 +498,12 @@ li {
     color: rgb(18, 29, 51);
     padding-right: 32px;
 }
+.diuBag {
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    height: 2.5rem;
+}
 
 
 
