@@ -98,6 +98,24 @@
     margin-left: -1em;
     margin-top: 1em;
 }
+/*  */
+/* Second List item  */
+.biGsNx {
+    text-decoration: none;
+    display: flex;
+    height: 3rem;
+    width: 11.25rem;
+    transition: all 0.5s ease 0s;
+}
 
+.gcevV {
+    font-weight: 900;
+    font-size: large;
+    color: rgb(143, 143, 143);
+    flex: 1 1 auto;
+    line-height: 2.5rem;
+    margin-left: 0em;
+    margin-top: -1em;
+}
 
 
