@@ -504,6 +504,13 @@ li {
     align-items: center;
     height: 2.5rem;
 }
+.diuBag svg {
+    width: 1.5rem;
+    height: 1.5rem;
+    margin-right: 1.4rem;
+    margin-left: 0px;
+    color: rgb(18, 29, 51);
+}
 
 
 
