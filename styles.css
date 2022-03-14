@@ -486,6 +486,14 @@ body {
 li {
     list-style: none;
 }
+/*  */
+.diuBag {
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    height: 2.5rem;
+}
+
 
 
 
