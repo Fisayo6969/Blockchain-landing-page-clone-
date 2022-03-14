@@ -513,32 +513,12 @@ li {
 /*  */
 .spinning{
     display: inline; 
-    margin-left: 1280px;
     position: fixed;
     bottom: 4px;
 }
-.spinning:hover{
-    transform: translateY(-10px);
-    transition: 2s ;
-    background-color: rgb(8, 0, 82);
-    border-radius: 50%;
-}v
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.spinning:hover{ 
+    transform: translate(10px);
+    transition: 2s;
+    background-color: rgb(0, 0, 0);
+    width: 2000px;
+}
