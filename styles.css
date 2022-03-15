@@ -71,7 +71,7 @@ body {
 /* background */
 .ldGnJz {
     max-width: 43.3125rem;
-    padding: 10.625rem 0px;
+    padding: 9rem 0px;
 }
 .cePXDf {
     background-color: rgb(20, 70, 153);
@@ -409,7 +409,7 @@ body {
 #footer{
     padding-top: 6.5rem;
     padding-bottom: 4.5rem;
-    padding-left: 20.25rem;
+    padding-left: 4.25rem;
     height: 130vh;
 }
 
@@ -505,20 +505,28 @@ li {
     height: 2.5rem;
 }
 .diuBag svg {
-   
     margin-right: 1.4rem;
     margin-left: 0px;
     color: rgb(18, 29, 51);
 }
 /*  */
 .spinning{
-    display: inline; 
     position: fixed;
-    bottom: 4px;
+    z-index: 100;
+    bottom: 50px;
+    cursor: pointer;
+    margin-left: 92rem;
+}
+@media(max-width:1500px){
+    .spinning{
+        position: fixed;
+        bottom: 50px;
+        cursor: pointer;
+        margin-left: 67rem;
+    }
 }
 .spinning:hover{ 
-    transform: translate(10px);
     transition: 2s;
     background-color: rgb(0, 0, 0);
-    width: 2000px;
+    width: 11px;
 }
